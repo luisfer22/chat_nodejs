@@ -1,0 +1,14 @@
+{
+  "name": "chat_nodejs",
+  "version": "0.0.1",
+  "description": "a project chat in node_js proving my knowlegde of how use express and other tools used so many in industry",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["express", "mongoose", "mongodb", "chat", "web_socket"],
+  "author": "LuisferCD",
+  "license": "ISC"
+}
