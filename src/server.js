@@ -1,4 +1,5 @@
 const express = require('express')
+
 const app = express()
 const port = 8080
 // Greetings
@@ -7,5 +8,5 @@ app.get('', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log('Escuchando desde el puerto 8080')
+  console.log(`Escuchando desde el puerto ${port}`)
 })
